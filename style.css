@@ -1,5 +1,5 @@
 body {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -18,19 +18,22 @@ body {
   width: 327px;
   height: 552px;
   border-radius: 16px;
-  background-color: #ffffff;
+  background-color: #fff;
   flex-flow: column wrap;
-  padding: 32px 0px;
+  padding: 32px 0;
 }
+
 .card-1 div.img1 {
   align-self: center;
   margin-top: -18px;
 }
+
 .card-1 div.img2 {
   width: 236px;
   height: 32px;
-  margin: 0px 16px;
+  margin: 0 16px;
 }
+
 .card-1 div.headline {
   line-height: 44px;
   font-size: 32px;
@@ -38,19 +41,22 @@ body {
   color: #172b4d;
   margin: 5px 15px;
 }
+
 .card-1 div p {
   color: #344563;
   margin: 10px 15px;
 }
+
 .card-1 div ul {
-  margin: 0px 0px;
+  margin: 0 0;
 }
+
 .card-1 div li {
   display: inline-block;
 }
+
 .card-1 div li#Js {
   width: 68px;
-  font-size: 16px;
   background-color: #ebebff;
   color: #6070ff;
   border-radius: 8px;
@@ -60,6 +66,7 @@ body {
   font-weight: 500;
   margin: 9px -25px;
 }
+
 .card-1 div li#css {
   background-color: #ebebff;
   color: #6070ff;
@@ -72,6 +79,7 @@ body {
   font-weight: 500;
   margin: 9px 29px;
 }
+
 .card-1 div li#html {
   background-color: #ebebff;
   color: #6070ff;
@@ -84,6 +92,7 @@ body {
   font-weight: 500;
   margin: 9px -25px;
 }
+
 .card-1 div.btn {
   width: 102px;
   height: 24px;
@@ -97,26 +106,29 @@ body {
   margin: 14px 14px;
 }
 
-/*Card 2*/
+/* Card 2 */
 .card-2 {
   display: flex;
   border: 1px solid #dfe1e6;
   width: 327px;
   height: 552px;
   border-radius: 16px;
-  background-color: #ffffff;
+  background-color: #fff;
   flex-flow: column wrap;
-  padding: 32px 0px;
+  padding: 32px 0;
 }
+
 .card-2 div.img1 {
   align-self: center;
   margin-top: -18px;
 }
+
 .card-2 div.img2 {
   width: 236px;
   height: 32px;
-  margin: 0px 16px;
+  margin: 0 16px;
 }
+
 .card-2 div.headline {
   line-height: 44px;
   font-size: 32px;
@@ -124,19 +136,22 @@ body {
   color: #172b4d;
   margin: 5px 15px;
 }
+
 .card-2 div p {
   color: #344563;
   margin: 10px 15px;
 }
+
 .card-2 div ul {
-  margin: 0px 0px;
+  margin: 0 0;
 }
+
 .card-2 div li {
   display: inline-block;
 }
+
 .card-2 div li#Js {
   width: 68px;
-  font-size: 16px;
   background-color: #ebebff;
   color: #6070ff;
   border-radius: 8px;
@@ -146,6 +161,7 @@ body {
   font-weight: 500;
   margin: 9px -25px;
 }
+
 .card-2 div li#css {
   background-color: #ebebff;
   color: #6070ff;
@@ -158,6 +174,7 @@ body {
   font-weight: 500;
   margin: 9px 29px;
 }
+
 .card-2 div li#html {
   background-color: #ebebff;
   color: #6070ff;
@@ -170,6 +187,7 @@ body {
   font-weight: 500;
   margin: 9px -25px;
 }
+
 .card-2 div.btn {
   width: 102px;
   height: 24px;
@@ -183,27 +201,29 @@ body {
   margin: 14px 14px;
 }
 
-
-/*Card 3*/
+/* Card 3 */
 .card-3 {
   display: flex;
   border: 1px solid #dfe1e6;
   width: 327px;
   height: 552px;
   border-radius: 16px;
-  background-color: #ffffff;
+  background-color: #fff;
   flex-flow: column wrap;
-  padding: 32px 0px;
+  padding: 32px 0;
 }
+
 .card-3 div.img1 {
   align-self: center;
   margin-top: -18px;
 }
+
 .card-3 div.img2 {
   width: 236px;
   height: 32px;
-  margin: 0px 16px;
+  margin: 0 16px;
 }
+
 .card-3 div.headline {
   line-height: 44px;
   font-size: 32px;
@@ -211,19 +231,22 @@ body {
   color: #172b4d;
   margin: 5px 15px;
 }
+
 .card-3 div p {
   color: #344563;
   margin: 10px 15px;
 }
+
 .card-3 div ul {
-  margin: 0px 0px;
+  margin: 0 0;
 }
+
 .card-3 div li {
   display: inline-block;
 }
+
 .card-3 div li#Js {
   width: 68px;
-  font-size: 16px;
   background-color: #ebebff;
   color: #6070ff;
   border-radius: 8px;
@@ -233,6 +256,7 @@ body {
   font-weight: 500;
   margin: 9px -25px;
 }
+
 .card-3 div li#css {
   background-color: #ebebff;
   color: #6070ff;
@@ -245,6 +269,7 @@ body {
   font-weight: 500;
   margin: 9px 29px;
 }
+
 .card-3 div li#html {
   background-color: #ebebff;
   color: #6070ff;
@@ -257,6 +282,7 @@ body {
   font-weight: 500;
   margin: 9px -25px;
 }
+
 .card-3 div.btn {
   width: 102px;
   height: 24px;
@@ -270,28 +296,29 @@ body {
   margin: 14px 14px;
 }
 
-
-
-/*Card 4*/
+/* Card 4 */
 .card-4 {
   display: flex;
   border: 1px solid #dfe1e6;
   width: 327px;
   height: 552px;
   border-radius: 16px;
-  background-color: #ffffff;
+  background-color: #fff;
   flex-flow: column wrap;
-  padding: 32px 0px;
+  padding: 32px 0;
 }
+
 .card-4 div.img1 {
   align-self: center;
   margin-top: -18px;
 }
+
 .card-4 div.img2 {
   width: 236px;
   height: 32px;
-  margin: 0px 16px;
+  margin: 0 16px;
 }
+
 .card-4 div.headline {
   line-height: 44px;
   font-size: 32px;
@@ -299,19 +326,22 @@ body {
   color: #172b4d;
   margin: 5px 15px;
 }
+
 .card-4 div p {
   color: #344563;
   margin: 10px 15px;
 }
+
 .card-4 div ul {
-  margin: 0px 0px;
+  margin: 0 0;
 }
+
 .card-4 div li {
   display: inline-block;
 }
+
 .card-4 div li#Js {
   width: 68px;
-  font-size: 16px;
   background-color: #ebebff;
   color: #6070ff;
   border-radius: 8px;
@@ -321,6 +351,7 @@ body {
   font-weight: 500;
   margin: 9px -25px;
 }
+
 .card-4 div li#css {
   background-color: #ebebff;
   color: #6070ff;
@@ -333,6 +364,7 @@ body {
   font-weight: 500;
   margin: 9px 29px;
 }
+
 .card-4 div li#html {
   background-color: #ebebff;
   color: #6070ff;
@@ -345,6 +377,7 @@ body {
   font-weight: 500;
   margin: 9px -25px;
 }
+
 .card-4 div.btn {
   width: 102px;
   height: 24px;
