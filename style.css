@@ -390,3 +390,137 @@ body {
   line-height: 24px;
   margin: 14px 14px;
 }
+
+.contact-me{
+  width: 375px;
+height: 779px;
+top: 5410px;
+background: #6070FF;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+
+.contact-me-background{
+  background-image: url(contact\ form\ shapes-mobile@2x.png);
+width: 265px;
+  height: 709.17px;
+  top: 4652px;
+  left: 153px;
+
+}
+
+.contact-me-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me-primary-text{
+height: 12px;
+padding-top: 86px;
+left: -213px;
+
+font-family: 'Poppins', sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.contact-me-secondary-text{
+  
+  width: 327px;
+  height: 137px;
+  top: 4802px;
+  left: 24px;
+
+  font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #EBEBFF;
+
+
+  
+}
+
+.name-input{
+  width: 327px;
+height: 48px;
+top: 4991px;
+left: 24px;
+
+}
+
+.input-forms{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+}
+
+.name-input-2{
+  width: 100%;
+height: 48px;
+top: 5059px;
+left: 24px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+.name-input input{
+  width:100%;
+  height:100%;
+  margin-bottom: 30px;
+  border-radius: 18px;
+  border: none;
+}
+
+.name-input-2 input{
+  width:100%;
+  height:100%;
+  border-radius: 18px;
+  border: none;
+}
+
+.name-input-3{
+  width: 327px;
+  height: 170px;
+
+}
+
+.name-input-3 textarea{
+  width: 100%;
+  height:100%;
+  border-radius: 18px;
+  border: none;
+}
+
+.input-forms button{
+  margin-top: 30px;
+  border-radius: 8px;
+  border: none;
+height: 35px;
+font-family: 'Poppins', sans-serif;
+font-size: 17px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #6070FF;
+width:142px;
+background: #FFFFFF;
+padding: 5px 5px;
+padding-bottom: 5px;
+
+}
