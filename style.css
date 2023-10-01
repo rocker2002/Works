@@ -1,0 +1,100 @@
+body {
+  font-family: Poppins;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  width: 375px;
+  height: 2786px;
+  margin: auto;
+  gap: 12px;
+  justify-content: center;
+}
+
+.card-1 {
+  display: flex;
+  border: 1px solid #dfe1e6;
+  width: 327px;
+  height: 552px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  flex-flow: column wrap;
+  padding: 32px 0px;
+}
+.card-1 div.img1 {
+  align-self: center;
+  margin-top: -18px;
+}
+.card-1 div.img2 {
+  width: 236px;
+  height: 32px;
+  margin: 0px 16px;
+}
+.card-1 div.headline {
+  line-height: 44px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #172b4d;
+  margin: 5px 15px;
+}
+.card-1 div p {
+  color: #344563;
+  margin: 10px 15px;
+}
+.card-1 div ul {
+  margin: 0px 0px;
+}
+.card-1 div li {
+  display: inline-block;
+}
+.card-1 div li#Js {
+  width: 68px;
+  font-size: 16px;
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 12px;
+  font-weight: 500;
+  margin: 9px -25px;
+}
+.card-1 div li#css {
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  height: 16px;
+  width: 25px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 12px;
+  font-weight: 500;
+  margin: 9px 29px;
+}
+.card-1 div li#html {
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  height: 16px;
+  width: 33px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 12px;
+  font-weight: 500;
+  margin: 9px -25px;
+}
+.card-1 div.btn {
+  width: 102px;
+  height: 24px;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 14px 14px;
+}
+
+
