@@ -1,3 +1,7 @@
+html{
+  width: 100%;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -390,3 +394,210 @@ body {
   line-height: 24px;
   margin: 14px 14px;
 }
+
+.about-container {
+  width: 375px;
+  height: 1062.15px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: white;
+  border-top-right-radius: 80px;
+  align-items: flex-start;
+}
+
+section.about-bg h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #172B4D;
+  line-height: 52px;
+  margin: 114px 19px;
+}
+section.about-bg p{
+  line-height: 24px;
+  font-size: 16px;
+  margin: -101px 24px;
+  color: #344563;
+}
+
+div.about-img1{
+  width: 117px;
+  height: 24px;
+  margin: 114px 24px;
+}
+div.about-img2{
+   margin: -93px 31px;
+}
+
+div.about-btn {
+  width: 138px;
+  height: 24px;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 111px 22px;
+}
+
+.skills-sec{
+  width: 327px;
+  height: 464.15px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  bottom: 65px;
+}
+
+div.languages{
+  display: inline-flex;
+}
+
+div.languages p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  position: absolute;
+  bottom: 420px;
+  left: 12px;
+}
+
+div.languages img{
+  position: absolute;
+  bottom: 440px;
+  left: 261px;
+}
+
+div.Js-about{
+  width: 303px;
+  height: 66.72px;
+  background-color: #F7F7F9;
+  border-radius: 8px;
+  position: absolute;
+  top: 60px;
+  left: 12px;
+}
+
+div.Js-about img{
+  position: absolute;
+  top: 9px;
+  left: 12px;
+}
+
+div.Js-about p{
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  top: 7px;
+  left: 76px;
+  color: #253858;
+}
+
+div.html-about{
+  width: 303px;
+  height: 66.72px;
+  background-color: #F7F7F9;
+  border-radius: 8px;
+  position: absolute;
+  top: 140px;
+  left: 12px;
+}
+
+div.html-about img{
+  position: absolute;
+  top: 9px;
+  left: 12px;
+}
+
+div.html-about p{
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  top: 7px;
+  left: 76px;
+  color: #253858;
+}
+
+div.css-about{
+  width: 303px;
+  height: 66.72px;
+  background-color: #F7F7F9;
+  border-radius: 8px;
+  position: absolute;
+  top: 220px;
+  left: 12px;
+}
+
+div.css-about img{
+  position: absolute;
+  top: 9px;
+  left: 12px;
+}
+
+div.css-about p{
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  top: 7px;
+  left: 76px;
+  color: #253858;
+}
+
+div.framework{
+  display: flex;
+  width: 327px;
+  height: 72px;
+  position: relative;
+  top: 300px;
+}
+
+div.framework p{ 
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  position: absolute;
+  left: 12px;
+}
+
+div.framework img{
+  position: absolute;
+  top: 16px;
+  left: 261px;
+}
+
+.separator{
+ position: relative;
+ top: 55px;
+right: 255px;
+}
+
+div.skills{
+  display: flex;
+  width: 327px;
+  height: 72px;
+  position: relative;
+  top: 375px;
+  right: 164px;
+}
+
+div.skills p{ 
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  position: absolute;
+  left: 12px;
+}
+
+div.skills img{
+  position: absolute;
+  top: 16px;
+  left: 261px;
+}
+
+.separator-1{
+  position: relative;
+  top: 55px;
+ right: 255px;
+ }
